@@ -11,7 +11,7 @@ return [
 	 * @package garetjax/phpbrowscap
 	 * @link 	https://github.com/GaretJax/phpbrowscap
 	 */
-	'hisorange\BrowserDetect\Plugin\Browscap'	=> [
+	'manhdoan91\BrowserDetect\Plugin\Browscap'	=> [
 		/**
 		 * Location of the browscap.ini file.
 		 * If setted to 'null' it will use the BrowserDetect package's cache directory.
@@ -76,7 +76,7 @@ return [
 	 * @package yzalis/ua-parser
 	 * @link  	https://github.com/yzalis/UAParser
 	 */
-	//'hisorange\BrowserDetect\Plugin\UAParser'	=> [
+	//'manhdoan91\BrowserDetect\Plugin\UAParser'	=> [
 		/**
 		 * Path to regexps yaml file, if null gona user the package's default.
 		 *
@@ -89,7 +89,7 @@ return [
 	 * @package mobiledetect/mobiledetectlib (v2.*)
 	 * @link 	https://github.com/serbanghita/Mobile-Detect
 	 */
-	'hisorange\BrowserDetect\Plugin\MobileDetect2' => [
+	'manhdoan91\BrowserDetect\Plugin\MobileDetect2' => [
 		/**
 		 * This fake headers gona be passed to MobileDetect 2.*
 		 * when parsing different than the current visitor's user-agent.
@@ -97,7 +97,7 @@ return [
 		 * @var array
 		 */
 		'fake_headers'	=> [
-			'HTTP_FAKE_HEADER' => 'HiSoRange\Browser'
+			'HTTP_FAKE_HEADER' => 'manhdoan91\Browser'
 		],
 	],
 
@@ -107,7 +107,7 @@ return [
 	 * @link http://www.useragentstring.com/pages/api.php
 	 */
 	// Uncomment this value to enable the plugin. 
-	//'hisorange\BrowserDetect\Plugin\UserAgentStringApi' => [],
+	//'manhdoan91\BrowserDetect\Plugin\UserAgentStringApi' => [],
 	
 
 ];
