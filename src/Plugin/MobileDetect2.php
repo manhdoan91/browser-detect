@@ -1,7 +1,7 @@
 <?php
-namespace hisorange\BrowserDetect\Plugin;
+namespace manhdoan91\BrowserDetect\Plugin;
 
-use hisorange\Traits\ObjectConfig;
+use manhdoan91\Traits\ObjectConfig;
 
 class MobileDetect2 {
 
