@@ -1,33 +1,29 @@
 {
-    "name": "manhdoan91/traits",
-    "description": "Useful PHP traits.",
-    "keywords": ["traits", "php"],
+    "name": "manhdoan91/browser-detect",
+    "description": "Browser & Mobile detection package for Laravel 4-5.",
+    "keywords": ["laravel", "user-agent", "browser", "mobile", "tablet", "user agent", "mobile", "tablet", "greenball", "manhdoan91"],
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "2.0.6",
 
     "authors": [
         {
-            "name": "Varga Zsolt (hisorange)",
-            "email": "hisoranger@gmail.com"
+            "name": "Manh Doan (manhdoan91)",
+            "email": "manhdoan91@ecomobi.com"
         }
     ],
 
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0",
+        "garetjax/phpbrowscap": "2.*",
+        "mobiledetect/mobiledetectlib": "2.*",
+        "manhdoan91/traits": "dev-main"
     },
 
     "autoload": {
         "psr-4": {
-            "hisorange\\Traits\\": "src/"
+            "manhdoan91\\BrowserDetect\\": "src/"
         }
-    },
-
-    "extra": {
-
-        "branch-alias": {
-            "dev-master": "1.x-dev"
-        }
-
     },
 
     "minimum-stability": "dev"

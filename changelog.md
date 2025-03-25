@@ -10,8 +10,8 @@ The version 1.0.0 is promised when the Mobile Detect 3 comes out but since they 
 
 - Most prior change is the PHP requirement increased to 5.4~ this allows the usage of traits.
 - Class loading now uses PSR-4 instead of PSR-0 structure. This will be handled by the composer automaticaly.
-- Package now requires the hisorange/traits package to share resources between packages.
-- PHP namespace are moved from **hisorange\browserdetect** to **hisorange\BrowserDetect** to avoid collusions.
+- Package now requires the manhdoan91/traits package to share resources between packages.
+- PHP namespace are moved from **manhdoan91\browserdetect** to **manhdoan91\BrowserDetect** to avoid collusions.
 - Package now uses the 'browser-detect.parser', 'browser-detect.result' component names in the L4 Di.
 - Service provider is more extendable with splitted parser and result component keys.
 - Manager class has been renamed to Parser.
