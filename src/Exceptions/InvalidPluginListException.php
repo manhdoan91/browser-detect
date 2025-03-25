@@ -4,4 +4,4 @@ namespace hisorange\BrowserDetect\Exceptions;
 // PHP global.
 use Exception;
 
-class InvalidCallException extends Exception {}
+class InvalidPluginListException extends Exception {}
