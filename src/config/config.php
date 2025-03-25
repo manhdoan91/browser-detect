@@ -36,7 +36,7 @@ return [
 	'cache'		=> [
 		/**
 		 * Cacheing interval for results in minutes.
-		 * Browsers are updated very frequently now days,
+		 * Browsers are updated very frequently now day,
 		 * so you should not set a too long interval if you
 		 * lack on memory or space where to cache the results.
 		 *
