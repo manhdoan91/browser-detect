@@ -1,5 +1,5 @@
 <?php
-namespace hisorange\BrowserDetect\Exceptions;
+namespace manhdoan91\BrowserDetect\Exceptions;
 
 // PHP global.
 use Exception;
