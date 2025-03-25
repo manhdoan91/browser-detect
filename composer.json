@@ -17,7 +17,7 @@
         "illuminate/support": "~5.0",
         "garetjax/phpbrowscap": "2.*",
         "mobiledetect/mobiledetectlib": "2.*",
-        "manhdoan91/traits": "1.*"
+        "manhdoan91/traits": "dev-main"
     },
 
     "autoload": {
