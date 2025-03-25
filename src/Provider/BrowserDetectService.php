@@ -1,7 +1,7 @@
 <?php
-namespace hisorange\BrowserDetect\Provider;
+namespace manhdoan91\BrowserDetect\Provider;
 
-use hisorange\BrowserDetect\Parser;
+use manhdoan91\BrowserDetect\Parser;
 use Illuminate\Support\ServiceProvider;
 
 class BrowserDetectService extends ServiceProvider {
@@ -21,8 +21,8 @@ class BrowserDetectService extends ServiceProvider {
     public function boot()
     {
 		$this->publishes([
-			__DIR__.'/../config/config.php'  => config_path('hisorange/browser-detect/browser-detect-config.php'),
-			__DIR__.'/../config/plugins.php' => config_path('hisorange/browser-detect/browser-detect-plugins.php'),
+			__DIR__.'/../config/config.php'  => config_path('manhdoan91/browser-detect/browser-detect-config.php'),
+			__DIR__.'/../config/plugins.php' => config_path('manhdoan91/browser-detect/browser-detect-plugins.php'),
 		]);
 	}
 
@@ -57,7 +57,7 @@ class BrowserDetectService extends ServiceProvider {
 	 */
 	public function registerResult()
 	{
-		$this->app->bind('browser-detect.result', 'hisorange\BrowserDetect\Result');
+		$this->app->bind('browser-detect.result', 'manhdoan91\BrowserDetect\Result');
 	}
 
 	/**
